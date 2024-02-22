@@ -11,6 +11,8 @@
 		9660C9E62B87CDDC00E68F19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660C9E52B87CDDC00E68F19 /* ContentView.swift */; };
 		9660C9E82B87CDDF00E68F19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9660C9E72B87CDDF00E68F19 /* Assets.xcassets */; };
 		9660C9EC2B87CDDF00E68F19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9660C9EB2B87CDDF00E68F19 /* Preview Assets.xcassets */; };
+		9660C9F32B87CEB100E68F19 /* pkarrbindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660C9F22B87CEB000E68F19 /* pkarrbindings.swift */; };
+		9660C9F52B87CEBD00E68F19 /* Pkarr.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9660C9F42B87CEBD00E68F19 /* Pkarr.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		9660C9E72B87CDDF00E68F19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9660C9E92B87CDDF00E68F19 /* Pkarr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pkarr.entitlements; sourceTree = "<group>"; };
 		9660C9EB2B87CDDF00E68F19 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9660C9F22B87CEB000E68F19 /* pkarrbindings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pkarrbindings.swift; sourceTree = "<group>"; };
+		9660C9F42B87CEBD00E68F19 /* Pkarr.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Pkarr.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9660C9F52B87CEBD00E68F19 /* Pkarr.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +59,8 @@
 			children = (
 				9660C9E32B87CDDC00E68F19 /* PkarrApp.swift */,
 				9660C9E52B87CDDC00E68F19 /* ContentView.swift */,
+				9660C9F22B87CEB000E68F19 /* pkarrbindings.swift */,
+				9660C9F42B87CEBD00E68F19 /* Pkarr.xcframework */,
 				9660C9E72B87CDDF00E68F19 /* Assets.xcassets */,
 				9660C9E92B87CDDF00E68F19 /* Pkarr.entitlements */,
 				9660C9EA2B87CDDF00E68F19 /* Preview Content */,
@@ -141,6 +148,7 @@
 			files = (
 				9660C9E62B87CDDC00E68F19 /* ContentView.swift in Sources */,
 				9660C9E42B87CDDC00E68F19 /* PkarrApp.swift in Sources */,
+				9660C9F32B87CEB100E68F19 /* pkarrbindings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
